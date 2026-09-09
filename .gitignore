@@ -1,0 +1,26 @@
+# This repository is PUBLIC and exists only to host released binaries and docs.
+# SDK source lives in the private repo: medront/booleanmaths-ios-sdk
+#
+# The patterns below are a guard, not a preference: they make it awkward to
+# commit source or build products into a public repo by accident. Overriding one
+# requires `git add -f`, which is the point.
+
+# Never commit source here.
+*.swift
+Sources/
+Tests/
+Package.swift
+project.yml
+
+# Binaries belong in GitHub Releases, not in git history.
+*.xcframework/
+*.framework/
+*.zip
+*.xcarchive/
+build/
+
+# macOS / Xcode noise
+.DS_Store
+xcuserdata/
+DerivedData/
+*.xcodeproj/
