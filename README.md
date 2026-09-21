@@ -10,7 +10,7 @@ released builds — the SDK source is not public.
 
 | | |
 |---|---|
-| Platform | iOS 15.1+ |
+| Platform | iOS 15.0+ |
 | Swift | 6.0 |
 | Architectures | `arm64` (device), `arm64` + `x86_64` (simulator) |
 
@@ -19,10 +19,10 @@ released builds — the SDK source is not public.
 ### CocoaPods
 
 ```ruby
-platform :ios, '15.1'
+platform :ios, '15.0'
 
 target 'YourApp' do
-  pod 'BooleanMathsSDK', '~> 1.1'
+  pod 'BooleanMathsSDK', '~> 1.2'
 end
 ```
 
